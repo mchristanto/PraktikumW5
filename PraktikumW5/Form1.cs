@@ -100,7 +100,8 @@ namespace PraktikumW5
         private void btnClear_Click(object sender, EventArgs e)
         {
             listBoxKoleksi.Items.Clear();
-            tBoxData.Clear();
+            tBoxData.Text = "";
+            lblOutput.Text = "";
             
 
         }
